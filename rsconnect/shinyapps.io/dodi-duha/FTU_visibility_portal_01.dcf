@@ -1,0 +1,12 @@
+name: FTU_visibility_portal_01
+title: FTU_visibility_portal_01
+username: dodi-duha
+account: dodi-duha
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16855537
+bundleId: 11686357
+url: https://dodi-duha.shinyapps.io/FTU_visibility_portal_01/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
