@@ -824,7 +824,7 @@
       "description": {
         "Package": "fs",
         "Title": "Cross-Platform File System Operations Based on 'libuv'",
-        "Version": "1.6.7",
+        "Version": "2.0.0",
         "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Gábor\", \"Csárdi\", role = \"aut\"),\n    person(\"Jeroen\", \"Ooms\", , \"jeroenooms@gmail.com\", role = \"cre\"),\n    person(\"libuv project contributors\", role = \"cph\",\n           comment = \"libuv library\"),\n    person(\"Joyent, Inc. and other Node contributors\", role = \"cph\",\n           comment = \"libuv library\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n           comment = c(ROR = \"03wc8by49\"))\n  )",
         "Description": "A cross-platform interface to file system operations, built\n    on top of the 'libuv' C library.",
         "License": "MIT + file LICENSE",
@@ -834,7 +834,7 @@
         "Imports": "methods",
         "Suggests": "covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling,\ntestthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr",
         "VignetteBuilder": "knitr",
-        "ByteCompile": "true",
+        "SystemRequirements": "libuv: libuv-devel (rpm) or libuv1-dev (deb).\nAlternatively to build the vendored libuv 'cmake' is required.\nGNU make.",
         "Config/Needs/website": "tidyverse/tidytemplate",
         "Config/testthat/edition": "3",
         "Config/usethis/last-upkeep": "2025-04-23",
@@ -842,20 +842,19 @@
         "Encoding": "UTF-8",
         "Language": "en-US",
         "RoxygenNote": "7.3.3",
-        "SystemRequirements": "GNU make",
         "NeedsCompilation": "yes",
-        "Packaged": "2026-03-05 19:41:13 UTC; jeroen",
+        "Packaged": "2026-03-21 21:56:58 UTC; jeroen",
         "Author": "Jim Hester [aut],\n  Hadley Wickham [aut],\n  Gábor Csárdi [aut],\n  Jeroen Ooms [cre],\n  libuv project contributors [cph] (libuv library),\n  Joyent, Inc. and other Node contributors [cph] (libuv library),\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
         "Repository": "CRAN",
-        "Date/Publication": "2026-03-06 09:00:03 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-13 08:52:02 UTC; unix",
+        "Date/Publication": "2026-03-22 06:10:17 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-24 03:57:18 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "fs",
         "RemoteRef": "fs",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "1.6.7"
+        "RemoteSha": "2.0.0"
       }
     },
     "generics": {
@@ -2609,7 +2608,7 @@
       "description": {
         "Package": "vctrs",
         "Title": "Vector Helpers",
-        "Version": "0.7.1",
+        "Version": "0.7.2",
         "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"),\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = \"aut\"),\n    person(\"Davis\", \"Vaughan\", , \"davis@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"data.table team\", role = \"cph\",\n           comment = \"Radix sort based on data.table's forder() and their contribution to R's order()\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "Defines new notions of prototype and size that are used to\n    provide tools for consistent and well-founded type-coercion and\n    size-recycling, and are in turn connected to ideas of type- and\n    size-stability useful for analysing function interfaces.",
         "License": "MIT + file LICENSE",
@@ -2627,18 +2626,18 @@
         "Language": "en-GB",
         "RoxygenNote": "7.3.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2026-01-22 13:56:47 UTC; davis",
+        "Packaged": "2026-03-20 19:53:17 UTC; davis",
         "Author": "Hadley Wickham [aut],\n  Lionel Henry [aut],\n  Davis Vaughan [aut, cre],\n  data.table team [cph] (Radix sort based on data.table's forder() and\n    their contribution to R's order()),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Davis Vaughan <davis@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2026-01-23 18:50:02 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-13 08:54:15 UTC; unix",
+        "Date/Publication": "2026-03-21 17:30:02 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-24 03:56:54 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "vctrs",
         "RemoteRef": "vctrs",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "0.7.1"
+        "RemoteSha": "0.7.2"
       }
     },
     "viridisLite": {
@@ -2758,7 +2757,7 @@
         "Package": "xfun",
         "Type": "Package",
         "Title": "Supporting Functions for Packages Maintained by 'Yihui Xie'",
-        "Version": "0.56",
+        "Version": "0.57",
         "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\", \"cph\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\", URL = \"https://yihui.org\")),\n  person(\"Wush\", \"Wu\", role = \"ctb\"),\n  person(\"Daijiang\", \"Li\", role = \"ctb\"),\n  person(\"Xianying\", \"Tan\", role = \"ctb\"),\n  person(\"Salim\", \"Brüggemann\", role = \"ctb\", email = \"salim-b@pm.me\", comment = c(ORCID = \"0000-0002-5329-5987\")),\n  person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n  person()\n  )",
         "Description": "Miscellaneous functions commonly used in other packages maintained by 'Yihui Xie'.",
         "Depends": "R (>= 3.2.0)",
@@ -2771,18 +2770,18 @@
         "RoxygenNote": "7.3.3",
         "VignetteBuilder": "litedown",
         "NeedsCompilation": "yes",
-        "Packaged": "2026-01-18 04:03:19 UTC; yihui",
+        "Packaged": "2026-03-19 17:27:02 UTC; yihui",
         "Author": "Yihui Xie [aut, cre, cph] (ORCID:\n    <https://orcid.org/0000-0003-0645-5666>, URL: https://yihui.org),\n  Wush Wu [ctb],\n  Daijiang Li [ctb],\n  Xianying Tan [ctb],\n  Salim Brüggemann [ctb] (ORCID: <https://orcid.org/0000-0002-5329-5987>),\n  Christophe Dervieux [ctb]",
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "CRAN",
-        "Date/Publication": "2026-01-18 06:10:03 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-13 08:53:30 UTC; unix",
+        "Date/Publication": "2026-03-20 16:50:02 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-24 03:57:42 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "xfun",
         "RemoteRef": "xfun",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "0.56"
+        "RemoteSha": "0.57"
       }
     },
     "xtable": {
@@ -2856,40 +2855,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "86f0202b47b1497b85b296543f8c733d"
+      "checksum": "f74d3dbf4617c3d38fa7338c33df1ec0"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "bfd8bba50077a02be087aa1f4743b579"
+      "checksum": "6552e104d22212caad067595914409fc"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "e0fad24efd37e4e4b96e28a115fba7cf"
+      "checksum": "0eba3eb6c17bca591e23a3c1c3069f96"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "02ecda58d158cff8fdb845a573975a67"
+      "checksum": "be96d517b4cb6b34a810838ca7cbeef9"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "ceb07f030de1589134f3b0aae4521d4c"
+      "checksum": "370d367805620ffe46e3785fabdfd5cb"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "d9f5f0a07e4adacaa0be90ba0941aac7"
+      "checksum": "d298715184c6193dfa6e549f6cb14f9e"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "c5b8adf7a5989e9b94952422b2387357"
+      "checksum": "42f3ba1254b2a3535c7014ccf467f241"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "8573ce54efcf90140af60f27563a3d74"
+      "checksum": "2760f42a1c0fa50f9a3a64e09113e0a2"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "85e84cd903da2aea649317541dd53b9f"
+      "checksum": "70bda93d0bbba55f42685cef31ec2fab"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "a32752e5d63c78a79083ee5a77036c80"
+      "checksum": "dc8d485c61fe00d89373cdf3574ba732"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "978bc24b1fa8e38d8c4122dde7935227"
+      "checksum": "857b4785df1055e7216a7b6adc8f283d"
     }
   },
   "users": null
