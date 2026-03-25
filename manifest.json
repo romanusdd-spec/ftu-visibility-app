@@ -824,7 +824,7 @@
       "description": {
         "Package": "fs",
         "Title": "Cross-Platform File System Operations Based on 'libuv'",
-        "Version": "2.0.0",
+        "Version": "2.0.1",
         "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Gábor\", \"Csárdi\", role = \"aut\"),\n    person(\"Jeroen\", \"Ooms\", , \"jeroenooms@gmail.com\", role = \"cre\"),\n    person(\"libuv project contributors\", role = \"cph\",\n           comment = \"libuv library\"),\n    person(\"Joyent, Inc. and other Node contributors\", role = \"cph\",\n           comment = \"libuv library\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n           comment = c(ROR = \"03wc8by49\"))\n  )",
         "Description": "A cross-platform interface to file system operations, built\n    on top of the 'libuv' C library.",
         "License": "MIT + file LICENSE",
@@ -843,18 +843,18 @@
         "Language": "en-US",
         "RoxygenNote": "7.3.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2026-03-21 21:56:58 UTC; jeroen",
+        "Packaged": "2026-03-23 14:30:54 UTC; jeroen",
         "Author": "Jim Hester [aut],\n  Hadley Wickham [aut],\n  Gábor Csárdi [aut],\n  Jeroen Ooms [cre],\n  libuv project contributors [cph] (libuv library),\n  Joyent, Inc. and other Node contributors [cph] (libuv library),\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
         "Repository": "CRAN",
-        "Date/Publication": "2026-03-22 06:10:17 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-24 03:57:18 UTC; unix",
+        "Date/Publication": "2026-03-24 05:20:18 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-25 03:59:15 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "fs",
         "RemoteRef": "fs",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "2.0.0"
+        "RemoteSha": "2.0.1"
       }
     },
     "generics": {
@@ -2855,40 +2855,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "f74d3dbf4617c3d38fa7338c33df1ec0"
+      "checksum": "7d1ead810ebdb004df7d0851ba87629a"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "6552e104d22212caad067595914409fc"
+      "checksum": "7344ad310fd56ea316928296dbb5afb1"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "0eba3eb6c17bca591e23a3c1c3069f96"
+      "checksum": "bd56fbf5a2beac013c30350a145bd987"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "be96d517b4cb6b34a810838ca7cbeef9"
+      "checksum": "f426929c21c2b1dc433e06a93741f132"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "370d367805620ffe46e3785fabdfd5cb"
+      "checksum": "68230ccc52220c3d9570b218c35c653b"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "d298715184c6193dfa6e549f6cb14f9e"
+      "checksum": "f62259cfb458b9d2c924c673926145b2"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "42f3ba1254b2a3535c7014ccf467f241"
+      "checksum": "d0da035c9f6947f37cfb696e535dc987"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "2760f42a1c0fa50f9a3a64e09113e0a2"
+      "checksum": "cfdc9ee16dba3bdb50198f6cd8052d48"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "70bda93d0bbba55f42685cef31ec2fab"
+      "checksum": "31fca0bfb88dc9aa797bd364bd03450c"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "dc8d485c61fe00d89373cdf3574ba732"
+      "checksum": "3114dfc13e1890da10d3fb01e0c421b1"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "857b4785df1055e7216a7b6adc8f283d"
+      "checksum": "8899157e1791ef513dfb018e435b29f6"
     }
   },
   "users": null
