@@ -2226,8 +2226,8 @@
         "Package": "sourcetools",
         "Type": "Package",
         "Title": "Tools for Reading, Tokenizing and Parsing R Code",
-        "Version": "0.1.7-1",
-        "Author": "Kevin Ushey",
+        "Version": "0.1.7-2",
+        "Authors@R": "person(\"Kevin\", \"Ushey\", role = c(\"aut\", \"cre\"), email = \"kevinushey@gmail.com\")",
         "Maintainer": "Kevin Ushey <kevinushey@gmail.com>",
         "Description": "Tools for the reading and tokenization of R code. The\n    'sourcetools' package provides both an R and C++ interface for the tokenization\n    of R code, and helpers for interacting with the tokenized representation of R\n    code.",
         "License": "MIT + file LICENSE",
@@ -2237,16 +2237,17 @@
         "BugReports": "https://github.com/kevinushey/sourcetools/issues",
         "Encoding": "UTF-8",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-01-31 18:03:04 UTC; kevin",
+        "Packaged": "2026-03-27 21:33:04 UTC; kevin",
+        "Author": "Kevin Ushey [aut, cre]",
         "Repository": "CRAN",
-        "Date/Publication": "2023-02-01 10:10:02 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:14:51 UTC; unix",
+        "Date/Publication": "2026-03-28 06:10:35 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-29 04:17:57 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "sourcetools",
         "RemoteRef": "sourcetools",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "0.1.7-1"
+        "RemoteSha": "0.1.7-2"
       }
     },
     "stringi": {
@@ -2509,7 +2510,7 @@
         "Package": "tinytex",
         "Type": "Package",
         "Title": "Helper Functions to Install and Maintain TeX Live, and Compile\nLaTeX Documents",
-        "Version": "0.58",
+        "Version": "0.59",
         "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\", \"cph\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n  person(given = \"Posit Software, PBC\", role = c(\"cph\", \"fnd\")),\n  person(\"Christophe\", \"Dervieux\", role = \"ctb\", comment = c(ORCID = \"0000-0003-4474-2498\")),\n  person(\"Devon\", \"Ryan\", role = \"ctb\", email = \"dpryan79@gmail.com\", comment = c(ORCID = \"0000-0002-8549-0971\")),\n  person(\"Ethan\", \"Heinzen\", role = \"ctb\"),\n  person(\"Fernando\", \"Cagua\", role = \"ctb\"),\n  person()\n  )",
         "Description": "Helper functions to install and maintain the 'LaTeX' distribution\n  named 'TinyTeX' (<https://yihui.org/tinytex/>), a lightweight, cross-platform,\n  portable, and easy-to-maintain version of 'TeX Live'. This package also\n  contains helper functions to compile 'LaTeX' documents, and install missing\n  'LaTeX' packages automatically.",
         "Imports": "xfun (>= 0.48)",
@@ -2520,18 +2521,18 @@
         "Encoding": "UTF-8",
         "RoxygenNote": "7.3.3",
         "NeedsCompilation": "no",
-        "Packaged": "2025-11-18 19:18:53 UTC; yihui",
+        "Packaged": "2026-03-27 22:21:20 UTC; yihui",
         "Author": "Yihui Xie [aut, cre, cph] (ORCID:\n    <https://orcid.org/0000-0003-0645-5666>),\n  Posit Software, PBC [cph, fnd],\n  Christophe Dervieux [ctb] (ORCID:\n    <https://orcid.org/0000-0003-4474-2498>),\n  Devon Ryan [ctb] (ORCID: <https://orcid.org/0000-0002-8549-0971>),\n  Ethan Heinzen [ctb],\n  Fernando Cagua [ctb]",
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "CRAN",
-        "Date/Publication": "2025-11-19 06:10:02 UTC",
-        "Built": "R 4.5.3; ; 2026-03-26 04:25:43 UTC; unix",
+        "Date/Publication": "2026-03-28 06:10:10 UTC",
+        "Built": "R 4.5.3; ; 2026-03-29 04:18:02 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "tinytex",
         "RemoteRef": "tinytex",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "0.58"
+        "RemoteSha": "0.59"
       }
     },
     "tzdb": {
@@ -2855,40 +2856,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "978d263ef98c238ed5327f30e8528777"
+      "checksum": "380988fd9b827934b2226c7252b972b1"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "3f4eabdcdbd33c57eea00cb4d0d30c8c"
+      "checksum": "807c45f28c2cb876bd103f2cda5cc1a8"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "3213b31d057bbd5c93bff305332df26f"
+      "checksum": "7849449e3d14325590f52e711b5c180e"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "f129ddaea0c37915af3c9c1a0b7118ec"
+      "checksum": "b89fe1d278d212f5e99f243284284181"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "c026e7dd3bf7100914b8ce5de372781b"
+      "checksum": "218df3c1955af5baf2edf860fbc885be"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "b81fadeb4cd2cd7e6d60e81a9d3857e4"
+      "checksum": "1310aab668a8286f136578bc3fdbb3b1"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "e9ff541f4b18a9b66c846325bc21b5d4"
+      "checksum": "b273161e576dc7c4a99399ef439a2d8d"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "e786b29dfa25ee2006b79f73f65b00e0"
+      "checksum": "a2f5ba08e9dfd722975486e74015c7de"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "570c5740127855d9d72b8b9360c50320"
+      "checksum": "c7cf6ee2c92ad346217e3936f40dd336"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "19c540c2ec21d49d6956a22f9f013127"
+      "checksum": "13d3733a13bc5a6899f0a828d456d5da"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "899ec6c4e617bd58c1d4b847caf20b03"
+      "checksum": "0c15dd553caa4c764df1a79a245ec893"
     }
   },
   "users": null
