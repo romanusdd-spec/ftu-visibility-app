@@ -1,5 +1,6 @@
 order_office,OrderDate,loc_new,loc_new_with_wo,loc_mtd_cum,loc_mtd_with_wo_cum,loc_mtd_without_wo_cum,ops_compliance_rate_cum
 FKSCLG,2026-04-01,23,23,23,23,0,1
-FKSCLG,2026-04-02,1,1,24,24,0,1
+FKSCLG,2026-04-02,12,12,35,35,0,1
+FKSCLG,2026-04-04,18,0,53,35,18,0.660377358490566
 FKSSBY,2026-04-01,7,7,7,7,0,1
 FKSSBY,2026-04-02,3,3,10,10,0,1

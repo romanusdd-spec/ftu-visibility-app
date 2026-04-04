@@ -656,7 +656,7 @@
         "Type": "Package",
         "Package": "dplyr",
         "Title": "A Grammar of Data Manipulation",
-        "Version": "1.2.0",
+        "Version": "1.2.1",
         "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Romain\", \"François\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-2444-4226\")),\n    person(\"Lionel\", \"Henry\", role = \"aut\"),\n    person(\"Kirill\", \"Müller\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-1416-3412\")),\n    person(\"Davis\", \"Vaughan\", , \"davis@posit.co\", role = \"aut\",\n           comment = c(ORCID = \"0000-0003-4777-038X\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "A fast, consistent tool for working with data frame like\n    objects, both in memory and out of memory.",
         "License": "MIT + file LICENSE",
@@ -673,18 +673,18 @@
         "LazyData": "true",
         "RoxygenNote": "7.3.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2026-01-30 23:05:30 UTC; hadleywickham",
+        "Packaged": "2026-04-02 19:51:05 UTC; hadleywickham",
         "Author": "Hadley Wickham [aut, cre] (ORCID:\n    <https://orcid.org/0000-0003-4757-117X>),\n  Romain François [aut] (ORCID: <https://orcid.org/0000-0002-2444-4226>),\n  Lionel Henry [aut],\n  Kirill Müller [aut] (ORCID: <https://orcid.org/0000-0002-1416-3412>),\n  Davis Vaughan [aut] (ORCID: <https://orcid.org/0000-0003-4777-038X>),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2026-02-03 08:50:47 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:17:13 UTC; unix",
+        "Date/Publication": "2026-04-03 07:30:08 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-04 03:56:27 UTC; unix",
         "RemoteType": "any",
         "RemotePkgRef": "any::dplyr",
         "RemoteRef": "any::dplyr",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "1.2.0"
+        "RemoteSha": "1.2.1"
       }
     },
     "evaluate": {
@@ -2856,40 +2856,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "11ade1bf470b9600995f4dd8e0fc67b5"
+      "checksum": "4204505ab04b5bea9d435df7ee41eb87"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "d46b481ca5151269cb67182fb2c9d6a3"
+      "checksum": "8bd098a4f5e316ee84970bd2166d05a9"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "ab856607d21e68fce9f6a54a31abc091"
+      "checksum": "bcf96207289462dea4e682fc8a1270ed"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "33001381e1c44abf3f65d0ce3ab6ade7"
+      "checksum": "b92fb7806395588239548b931c209ae1"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "f073180b17a49abb799b21ca34a7c70f"
+      "checksum": "e7a892eaed987ed77433833036423717"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "24d956b3d2ef5643f5ec58b8753d5cb2"
+      "checksum": "fb6300472478786a4fd4339b0a9b99c6"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "c06a4839e9e675bc85586caadf3b5b34"
+      "checksum": "e7ea9297471875f4c6893307b8c7a85c"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "0211947c1b4260fbe44531625502a53c"
+      "checksum": "33b5f29d293031dd5a615c956d0412a4"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "835b11301475a1e281a33211e98c48cb"
+      "checksum": "6416009ea5837be7cae2133ba07c0f1c"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "557c4c64b017f2594227803f604924e0"
+      "checksum": "8e3e0a58d177582610e67d9b46311dbe"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "7d51fc62cf6b3b91a4ba1f64a194a719"
+      "checksum": "1fb2926e6a56d67556fdc8aad2ed1bad"
     }
   },
   "users": null
