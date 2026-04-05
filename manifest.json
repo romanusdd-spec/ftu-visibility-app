@@ -453,7 +453,7 @@
       "description": {
         "Package": "cpp11",
         "Title": "A C++11 Interface for R's C Interface",
-        "Version": "0.5.3",
+        "Version": "0.5.4",
         "Authors@R": "\n    c(\n      person(\"Davis\", \"Vaughan\", email = \"davis@posit.co\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-4777-038X\")),\n      person(\"Jim\",\"Hester\", role = \"aut\", comment = c(ORCID = \"0000-0002-2739-7082\")),\n      person(\"Romain\", \"François\", role = \"aut\", comment = c(ORCID = \"0000-0002-2444-4226\")),\n      person(\"Benjamin\", \"Kietzman\", role = \"ctb\"),\n      person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n    )",
         "Description": "Provides a header only, C++11 interface to R's C\n    interface.  Compared to other approaches 'cpp11' strives to be safe\n    against long jumps from the C API as well as C++ exceptions, conform\n    to normal R function semantics and supports interaction with 'ALTREP'\n    vectors.",
         "License": "MIT + file LICENSE",
@@ -466,20 +466,20 @@
         "Config/testthat/edition": "3",
         "Config/Needs/cpp11/cpp_register": "brio, cli, decor, desc, glue, tibble,\nvctrs",
         "Encoding": "UTF-8",
-        "RoxygenNote": "7.3.2",
+        "RoxygenNote": "7.3.3",
         "NeedsCompilation": "no",
-        "Packaged": "2026-01-20 13:50:54 UTC; davis",
+        "Packaged": "2026-04-03 18:50:48 UTC; davis",
         "Author": "Davis Vaughan [aut, cre] (ORCID:\n    <https://orcid.org/0000-0003-4777-038X>),\n  Jim Hester [aut] (ORCID: <https://orcid.org/0000-0002-2739-7082>),\n  Romain François [aut] (ORCID: <https://orcid.org/0000-0002-2444-4226>),\n  Benjamin Kietzman [ctb],\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Davis Vaughan <davis@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2026-01-20 15:20:02 UTC",
-        "Built": "R 4.5.3; ; 2026-03-26 04:12:17 UTC; unix",
+        "Date/Publication": "2026-04-04 05:11:17 UTC",
+        "Built": "R 4.5.3; ; 2026-04-05 04:16:57 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "cpp11",
         "RemoteRef": "cpp11",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "0.5.3"
+        "RemoteSha": "0.5.4"
       }
     },
     "crayon": {
@@ -1421,29 +1421,30 @@
       "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "lazyeval",
-        "Version": "0.2.2",
+        "Version": "0.2.3",
         "Title": "Lazy (Non-Standard) Evaluation",
         "Description": "An alternative approach to non-standard evaluation using\n    formulas. Provides a full implementation of LISP style 'quasiquotation',\n    making it easier to generate code with other code.",
         "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"RStudio\", role = \"cph\")\n    )",
         "License": "GPL-3",
-        "LazyData": "true",
         "Depends": "R (>= 3.1.0)",
+        "Imports": "rlang",
         "Suggests": "knitr, rmarkdown (>= 0.2.65), testthat, covr",
         "VignetteBuilder": "knitr",
-        "RoxygenNote": "6.1.1",
+        "RoxygenNote": "7.3.3",
+        "Config/build/compilation-database": "true",
         "NeedsCompilation": "yes",
-        "Packaged": "2019-03-15 14:18:01 UTC; lionel",
+        "Packaged": "2026-04-03 09:37:04 UTC; lionel",
         "Author": "Hadley Wickham [aut, cre],\n  RStudio [cph]",
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
-        "Date/Publication": "2019-03-15 17:50:07 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:15:44 UTC; unix",
+        "Date/Publication": "2026-04-04 05:10:53 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-05 04:16:59 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "lazyeval",
         "RemoteRef": "lazyeval",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "0.2.2"
+        "RemoteSha": "0.2.3"
       }
     },
     "lifecycle": {
@@ -1528,7 +1529,7 @@
         "Type": "Package",
         "Package": "magrittr",
         "Title": "A Forward-Pipe Operator for R",
-        "Version": "2.0.4",
+        "Version": "2.0.5",
         "Authors@R": "c(\n    person(\"Stefan Milton\", \"Bache\", , \"stefan@stefanbache.dk\", role = c(\"aut\", \"cph\"),\n           comment = \"Original author and creator of magrittr\"),\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"),\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = \"cre\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n            comment = c(ROR = \"03wc8by49\"))\n  )",
         "Description": "Provides a mechanism for chaining commands with a new\n    forward-pipe operator, %>%. This operator will forward a value, or the\n    result of an expression, into the next function call/expression.\n    There is flexible support for the type of right-hand side expressions.\n    For more information, see package vignette.  To quote Rene Magritte,\n    \"Ceci n'est pas un pipe.\"",
         "License": "MIT + file LICENSE",
@@ -1542,18 +1543,18 @@
         "Encoding": "UTF-8",
         "RoxygenNote": "7.3.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2025-09-11 16:45:15 UTC; lionel",
+        "Packaged": "2026-04-03 08:09:48 UTC; lionel",
         "Author": "Stefan Milton Bache [aut, cph] (Original author and creator of\n    magrittr),\n  Hadley Wickham [aut],\n  Lionel Henry [cre],\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Lionel Henry <lionel@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2025-09-12 07:20:14 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:11:55 UTC; unix",
+        "Date/Publication": "2026-04-04 08:00:02 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-05 04:16:56 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "magrittr",
         "RemoteRef": "magrittr",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "2.0.4"
+        "RemoteSha": "2.0.5"
       }
     },
     "memoise": {
@@ -2856,40 +2857,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "4204505ab04b5bea9d435df7ee41eb87"
+      "checksum": "f3d67ff60e26433f79e7205a722c12ab"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "8bd098a4f5e316ee84970bd2166d05a9"
+      "checksum": "03043a7f26f87a13889c93e9ef6060b2"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "bcf96207289462dea4e682fc8a1270ed"
+      "checksum": "78392d39af0a6dcac2347e635d6859b4"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "b92fb7806395588239548b931c209ae1"
+      "checksum": "356b55fd675b4ca6a659b6f8596b9233"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "e7a892eaed987ed77433833036423717"
+      "checksum": "2e54f8d4f8a4f11ffc7bd53cad8c7ef9"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "fb6300472478786a4fd4339b0a9b99c6"
+      "checksum": "373a24f0839e4446ed24eca367610ab5"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "e7ea9297471875f4c6893307b8c7a85c"
+      "checksum": "d5695d57e057dc07dae729848fc311d5"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "33b5f29d293031dd5a615c956d0412a4"
+      "checksum": "d7753d596cb611a404dc7c8eb0b9dae9"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "6416009ea5837be7cae2133ba07c0f1c"
+      "checksum": "77402654998d3999e7f41b98875fd296"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "8e3e0a58d177582610e67d9b46311dbe"
+      "checksum": "972f90af3bac4b74d31ade2e6ac18610"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "1fb2926e6a56d67556fdc8aad2ed1bad"
+      "checksum": "a6303ae184f3103ad7d8b136f816a9b3"
     }
   },
   "users": null
