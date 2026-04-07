@@ -2012,7 +2012,7 @@
       "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "rlang",
-        "Version": "1.1.7",
+        "Version": "1.2.0",
         "Title": "Functions for Base Types and Core R and 'Tidyverse' Features",
         "Description": "A toolbox for working with base types, core R features\n  like the condition system, and core 'Tidyverse' features like tidy\n  evaluation.",
         "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", ,\"lionel@posit.co\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", ,\"hadley@posit.co\", \"aut\"),\n    person(given = \"mikefc\",\n           email = \"mikefc@coolbutuseless.com\",\n           role = \"cph\",\n           comment = \"Hash implementation based on Mike's xxhashlite\"),\n    person(given = \"Yann\",\n           family = \"Collet\",\n           role = \"cph\",\n           comment = \"Author of the embedded xxHash library\"),\n    person(given = \"Posit, PBC\", role = c(\"cph\", \"fnd\"))\n    )",
@@ -2021,7 +2021,7 @@
         "Biarch": "true",
         "Depends": "R (>= 4.0.0)",
         "Imports": "utils",
-        "Suggests": "cli (>= 3.1.0), covr, crayon, desc, fs, glue, knitr,\nmagrittr, methods, pillar, pkgload, rmarkdown, stats, testthat\n(>= 3.2.0), tibble, usethis, vctrs (>= 0.2.3), withr",
+        "Suggests": "cli (>= 3.1.0), covr, crayon, desc, fs, glue, knitr,\nmagrittr, methods, pillar, pkgload, rmarkdown, stats, testthat\n(>= 3.3.2), tibble, usethis, vctrs (>= 0.2.3), withr",
         "Enhances": "winch",
         "Encoding": "UTF-8",
         "RoxygenNote": "7.3.3",
@@ -2031,18 +2031,18 @@
         "Config/testthat/edition": "3",
         "Config/Needs/website": "dplyr, tidyverse/tidytemplate",
         "NeedsCompilation": "yes",
-        "Packaged": "2026-01-08 10:35:58 UTC; lionel",
+        "Packaged": "2026-04-02 12:23:10 UTC; lionel",
         "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  mikefc [cph] (Hash implementation based on Mike's xxhashlite),\n  Yann Collet [cph] (Author of the embedded xxHash library),\n  Posit, PBC [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2026-01-09 12:10:02 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:11:59 UTC; unix",
+        "Date/Publication": "2026-04-06 10:40:02 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-07 04:12:19 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "rlang",
         "RemoteRef": "rlang",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "1.1.7"
+        "RemoteSha": "1.2.0"
       }
     },
     "rmarkdown": {
@@ -2857,40 +2857,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "ec56315d0b53da930ca1f6cbfa3bb049"
+      "checksum": "1b9d5dff3d576a7b29f6472bf9d5940b"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "03eb94f731b71fa4984215c9b4e07416"
+      "checksum": "93bc3a54107b335ce50cc4c52b86bf8b"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "6755ba23cf2b64667a76483666e3d678"
+      "checksum": "666f85a1c07c72bdeb1881ac310c3107"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "8d6914fb617ee6f6a1067edc190c49e8"
+      "checksum": "56552c08f28e8f952f39f9a5c350c787"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "35e47012ccae59972df7e85160d7bdb1"
+      "checksum": "c19c14f7c0c7d9fecad4b763075428cd"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "d4cac39f6a7a8dae9845df334649d8d5"
+      "checksum": "a8c723297eabf1ec28211e012b3d8cd4"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "7475fbaa4421896e15ef8111cd6589f0"
+      "checksum": "4014ee8e04880e6810b53b2c5ef6a0a3"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "ad1e1735eed4a05c5bc4fffd12a1fb54"
+      "checksum": "e76513c38627de5d19cc604741cf8272"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "c9a585ca3c0f6e031a9d56101bafa55a"
+      "checksum": "f95d50db5ca64a1b68c8b60b27e4ae84"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "9edf5da82ba56a0e531335bf23b75ec0"
+      "checksum": "0e5b3623df78a7e949f2e5ec2ce92aa6"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "718508c33882ee52e982af2e999a908a"
+      "checksum": "9f5c9378c23574a4c57835db47648bb5"
     }
   },
   "users": null
