@@ -1,4 +1,4 @@
 order_office,period,period_start,period_end,loc_total,loc_with_wo,loc_without_wo,ops_compliance_rate,loc_revenue_total_idr,loc_revenue_without_wo_idr
-FKSCLG,mtd,2026-04-01,2026-04-07,116,103,13,0.8879310344827587,0,0
-FKSSBY,mtd,2026-04-01,2026-04-07,31,31,0,1,0,0
-GLOBAL,mtd,2026-04-01,2026-04-07,147,134,13,0.9115646258503401,0,0
+FKSCLG,mtd,2026-04-01,2026-04-08,160,156,4,0.975,24457000,0
+FKSSBY,mtd,2026-04-01,2026-04-08,65,65,0,1,0,0
+GLOBAL,mtd,2026-04-01,2026-04-08,225,221,4,0.9822222222222222,24457000,0
