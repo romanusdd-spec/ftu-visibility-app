@@ -352,8 +352,8 @@
       "description": {
         "Package": "cli",
         "Title": "Helpers for Developing Command Line Interfaces",
-        "Version": "3.6.5",
-        "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"gabor@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", role = \"ctb\"),\n    person(\"Kirill\", \"Müller\", role = \"ctb\"),\n    person(\"Salim\", \"Brüggemann\", , \"salim-b@pm.me\", role = \"ctb\",\n           comment = c(ORCID = \"0000-0002-5329-5987\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Version": "3.6.6",
+        "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"gabor@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", role = \"ctb\"),\n    person(\"Kirill\", \"Müller\", role = \"ctb\"),\n    person(\"Salim\", \"Brüggemann\", , \"salim-b@pm.me\", role = \"ctb\",\n           comment = c(ORCID = \"0000-0002-5329-5987\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n           comment = c(ROR = \"03wc8by49\"))\n  )",
         "Description": "A suite of tools to build attractive command line interfaces\n    ('CLIs'), from semantic elements: headings, lists, alerts, paragraphs,\n    etc. Supports custom themes via a 'CSS'-like language. It also\n    contains a number of lower level 'CLI' elements: rules, boxes, trees,\n    and 'Unicode' symbols with 'ASCII' alternatives. It support ANSI\n    colors and text styles as well.",
         "License": "MIT + file LICENSE",
         "URL": "https://cli.r-lib.org, https://github.com/r-lib/cli",
@@ -363,21 +363,22 @@
         "Suggests": "callr, covr, crayon, digest, glue (>= 1.6.0), grDevices,\nhtmltools, htmlwidgets, knitr, methods, processx, ps (>=\n1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,\nrstudioapi, testthat (>= 3.2.0), tibble, whoami, withr",
         "Config/Needs/website": "r-lib/asciicast, bench, brio, cpp11, decor, desc,\nfansi, prettyunits, sessioninfo, tidyverse/tidytemplate,\nusethis, vctrs",
         "Config/testthat/edition": "3",
+        "Config/usethis/last-upkeep": "2025-04-25",
         "Encoding": "UTF-8",
-        "RoxygenNote": "7.3.2",
+        "RoxygenNote": "7.3.2.9000",
         "NeedsCompilation": "yes",
-        "Packaged": "2025-04-22 12:00:18 UTC; gaborcsardi",
-        "Author": "Gábor Csárdi [aut, cre],\n  Hadley Wickham [ctb],\n  Kirill Müller [ctb],\n  Salim Brüggemann [ctb] (<https://orcid.org/0000-0002-5329-5987>),\n  Posit Software, PBC [cph, fnd]",
+        "Packaged": "2026-04-08 18:14:45 UTC; gaborcsardi",
+        "Author": "Gábor Csárdi [aut, cre],\n  Hadley Wickham [ctb],\n  Kirill Müller [ctb],\n  Salim Brüggemann [ctb] (ORCID: <https://orcid.org/0000-0002-5329-5987>),\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Gábor Csárdi <gabor@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2025-04-23 13:50:02 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:11:44 UTC; unix",
+        "Date/Publication": "2026-04-09 09:50:18 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-10 04:26:06 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "cli",
         "RemoteRef": "cli",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "3.6.5"
+        "RemoteSha": "3.6.6"
       }
     },
     "clipr": {
@@ -2857,40 +2858,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "cdac9c2b625b9989214945334f718eeb"
+      "checksum": "ab8d7f4894484033914e89dd824e3460"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "86ea91888bade5cbf1a95f9b110d2633"
+      "checksum": "bcb0ec8f15708150c8e961cdbb4ab69a"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "6e1a455cdb7d3fb855de9accdad3a16d"
+      "checksum": "e29b04802ec77b9a1b17a4394ea044fd"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "373884344c218d2a1781c5cb2c877daf"
+      "checksum": "423459e690bc6c3833fbda7ad78539f6"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "110c329668154a7dc1db8c6001b9b804"
+      "checksum": "17615c178d65c1afc88b2475ab9a00c4"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "7772632cfbeae4dbc9726d4f26138bcb"
+      "checksum": "73f76db74d4ffc372480def3dee63dae"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "0ffddb3ce31660b601a9f9866d3d6e4c"
+      "checksum": "c668e726b84c96b59518e8aa4b41e0bf"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "06bf09fa3448ad761123e176c67c9564"
+      "checksum": "72956261251282badce98c1234c3480b"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "7b2be871f0ba0fd0275529330c80c261"
+      "checksum": "92a25b3e27bc27f880733db3db37108c"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "d3814573733acdbf4765ae2febc94c91"
+      "checksum": "9e59d664f8fec4800dccfc47550151c1"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "6db96679634811fffe3f3f1996fcc0af"
+      "checksum": "5e2ad575c3f31a254041a49b64312034"
     }
   },
   "users": null
