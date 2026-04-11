@@ -1900,7 +1900,7 @@
       "description": {
         "Package": "purrr",
         "Title": "Functional Programming Tools",
-        "Version": "1.2.1",
+        "Version": "1.2.2",
         "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = \"aut\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n           comment = c(ROR = \"https://ror.org/03wc8by49\"))\n  )",
         "Description": "A complete and consistent functional programming toolkit for\n    R.",
         "License": "MIT + file LICENSE",
@@ -1919,18 +1919,18 @@
         "Encoding": "UTF-8",
         "RoxygenNote": "7.3.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2026-01-08 20:56:46 UTC; hadleywickham",
+        "Packaged": "2026-04-10 10:15:54 UTC; lionel",
         "Author": "Hadley Wickham [aut, cre] (ORCID:\n    <https://orcid.org/0000-0003-4757-117X>),\n  Lionel Henry [aut],\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2026-01-09 10:30:02 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:17:00 UTC; unix",
+        "Date/Publication": "2026-04-10 17:00:09 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-11 04:00:55 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "purrr",
         "RemoteRef": "purrr",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "1.2.1"
+        "RemoteSha": "1.2.2"
       }
     },
     "rappdirs": {
@@ -2858,40 +2858,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "ab8d7f4894484033914e89dd824e3460"
+      "checksum": "d22e70742ac93ff823c0865b8adf75f1"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "bcb0ec8f15708150c8e961cdbb4ab69a"
+      "checksum": "d0776ed4f7f967eeed34637e993b5c55"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "e29b04802ec77b9a1b17a4394ea044fd"
+      "checksum": "768c36614fab8b9c695367a9fbfcb754"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "423459e690bc6c3833fbda7ad78539f6"
+      "checksum": "32125285e272d27fd590dfe26e7ffcfa"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "17615c178d65c1afc88b2475ab9a00c4"
+      "checksum": "62cbdad48b41d9821ac9f0f5b1f40c26"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "73f76db74d4ffc372480def3dee63dae"
+      "checksum": "6f504496fb3de5b0c7388c1b2eea62d6"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "c668e726b84c96b59518e8aa4b41e0bf"
+      "checksum": "61697f0f8ebca05605ad35c2fe4b9f29"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "72956261251282badce98c1234c3480b"
+      "checksum": "b3de40e6aca4bec62849907007b1f17c"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "92a25b3e27bc27f880733db3db37108c"
+      "checksum": "0835e18c990923dce3b13fa2f9f117af"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "9e59d664f8fec4800dccfc47550151c1"
+      "checksum": "a4b262f5c8c99f6df90756842eebba2c"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "5e2ad575c3f31a254041a49b64312034"
+      "checksum": "31510d0e3f24af8c0ffb531cfdd4c88a"
     }
   },
   "users": null
