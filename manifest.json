@@ -2611,7 +2611,7 @@
       "description": {
         "Package": "vctrs",
         "Title": "Vector Helpers",
-        "Version": "0.7.2",
+        "Version": "0.7.3",
         "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"),\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = \"aut\"),\n    person(\"Davis\", \"Vaughan\", , \"davis@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"data.table team\", role = \"cph\",\n           comment = \"Radix sort based on data.table's forder() and their contribution to R's order()\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "Defines new notions of prototype and size that are used to\n    provide tools for consistent and well-founded type-coercion and\n    size-recycling, and are in turn connected to ideas of type- and\n    size-stability useful for analysing function interfaces.",
         "License": "MIT + file LICENSE",
@@ -2626,21 +2626,22 @@
         "Config/testthat/edition": "3",
         "Config/testthat/parallel": "true",
         "Encoding": "UTF-8",
+        "KeepSource": "true",
         "Language": "en-GB",
         "RoxygenNote": "7.3.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2026-03-20 19:53:17 UTC; davis",
+        "Packaged": "2026-04-10 14:27:17 UTC; davis",
         "Author": "Hadley Wickham [aut],\n  Lionel Henry [aut],\n  Davis Vaughan [aut, cre],\n  data.table team [cph] (Radix sort based on data.table's forder() and\n    their contribution to R's order()),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Davis Vaughan <davis@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2026-03-21 17:30:02 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:16:32 UTC; unix",
+        "Date/Publication": "2026-04-11 06:20:03 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-12 04:27:05 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "vctrs",
         "RemoteRef": "vctrs",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "0.7.2"
+        "RemoteSha": "0.7.3"
       }
     },
     "viridisLite": {
@@ -2858,40 +2859,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "d22e70742ac93ff823c0865b8adf75f1"
+      "checksum": "d23726119b2777826a99d86cc296b423"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "d0776ed4f7f967eeed34637e993b5c55"
+      "checksum": "4cebbe1e5d29ec99e00abcc67dad92fc"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "768c36614fab8b9c695367a9fbfcb754"
+      "checksum": "6d70378347d8e9260dc8c1062d691c2c"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "32125285e272d27fd590dfe26e7ffcfa"
+      "checksum": "edf9f9573468d7b2e4b18de721956d69"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "62cbdad48b41d9821ac9f0f5b1f40c26"
+      "checksum": "620561ce7320fbaeb150a29bf72362a3"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "6f504496fb3de5b0c7388c1b2eea62d6"
+      "checksum": "f1b763767b7029d9a9a6b4cb979f2c15"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "61697f0f8ebca05605ad35c2fe4b9f29"
+      "checksum": "f3a001095d1d98d72da55f795ebf5d5b"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "b3de40e6aca4bec62849907007b1f17c"
+      "checksum": "7cdd843f8874c037f50ad5bcfeb4d1a7"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "0835e18c990923dce3b13fa2f9f117af"
+      "checksum": "8529ae35d2e3b3e4cda1c517c195ba40"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "a4b262f5c8c99f6df90756842eebba2c"
+      "checksum": "36c6498214702f5f2a08b1a49a643ce3"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "31510d0e3f24af8c0ffb531cfdd4c88a"
+      "checksum": "f500332ec12e47c2b8062661544ea1e3"
     }
   },
   "users": null
