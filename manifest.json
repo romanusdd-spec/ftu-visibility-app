@@ -76,14 +76,14 @@
       "description": {
         "Package": "Rcpp",
         "Title": "Seamless R and C++ Integration",
-        "Version": "1.1.1",
-        "Date": "2026-01-07",
+        "Version": "1.1.1-1",
+        "Date": "2026-04-02",
         "Authors@R": "c(person(\"Dirk\", \"Eddelbuettel\", role = c(\"aut\", \"cre\"), email = \"edd@debian.org\",\n                    comment = c(ORCID = \"0000-0001-6419-907X\")),\n             person(\"Romain\", \"Francois\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0002-2444-4226\")),\n             person(\"JJ\", \"Allaire\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0003-0174-9868\")),\n             person(\"Kevin\", \"Ushey\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0003-2880-7407\")),\n             person(\"Qiang\", \"Kou\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0001-6786-5453\")),\n             person(\"Nathan\", \"Russell\", role = \"aut\"),\n             person(\"Iñaki\", \"Ucar\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0001-6403-5550\")),\n             person(\"Doug\", \"Bates\", role = \"aut\",\n                    comment = c(ORCID = \"0000-0001-8316-9503\")),\n             person(\"John\", \"Chambers\", role = \"aut\"))",
         "Description": "The 'Rcpp' package provides R functions as well as C++ classes which\n offer a seamless integration of R and C++. Many R data types and objects can be\n mapped back and forth to C++ equivalents which facilitates both writing of new\n code as well as easier integration of third-party libraries. Documentation\n about 'Rcpp' is provided by several vignettes included in this package, via the\n 'Rcpp Gallery' site at <https://gallery.rcpp.org>, the paper by Eddelbuettel and\n Francois (2011, <doi:10.18637/jss.v040.i08>), the book by Eddelbuettel (2013,\n <doi:10.1007/978-1-4614-6868-4>) and the paper by Eddelbuettel and Balamuta (2018,\n <doi:10.1080/00031305.2017.1375990>); see 'citation(\"Rcpp\")' for details.",
         "Depends": "R (>= 3.5.0)",
         "Imports": "methods, utils",
         "Suggests": "tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)",
-        "URL": "https://www.rcpp.org,\nhttps://dirk.eddelbuettel.com/code/rcpp.html,\nhttps://github.com/RcppCore/Rcpp",
+        "URL": "https://www.rcpp.org, https://dirk.eddelbuettel.com/code/rcpp.html, https://github.com/RcppCore/Rcpp",
         "License": "GPL (>= 2)",
         "BugReports": "https://github.com/RcppCore/Rcpp/issues",
         "MailingList": "rcpp-devel@lists.r-forge.r-project.org",
@@ -91,18 +91,16 @@
         "Encoding": "UTF-8",
         "VignetteBuilder": "Rcpp",
         "NeedsCompilation": "yes",
-        "Packaged": "2026-01-08 14:33:45 UTC; edd",
-        "Author": "Dirk Eddelbuettel [aut, cre] (ORCID:\n    <https://orcid.org/0000-0001-6419-907X>),\n  Romain Francois [aut] (ORCID: <https://orcid.org/0000-0002-2444-4226>),\n  JJ Allaire [aut] (ORCID: <https://orcid.org/0000-0003-0174-9868>),\n  Kevin Ushey [aut] (ORCID: <https://orcid.org/0000-0003-2880-7407>),\n  Qiang Kou [aut] (ORCID: <https://orcid.org/0000-0001-6786-5453>),\n  Nathan Russell [aut],\n  Iñaki Ucar [aut] (ORCID: <https://orcid.org/0000-0001-6403-5550>),\n  Doug Bates [aut] (ORCID: <https://orcid.org/0000-0001-8316-9503>),\n  John Chambers [aut]",
+        "Packaged": "2026-04-02 12:55:00 UTC; edd",
+        "Author": "Dirk Eddelbuettel [aut, cre] (ORCID: <https://orcid.org/0000-0001-6419-907X>),\n  Romain Francois [aut] (ORCID: <https://orcid.org/0000-0002-2444-4226>),\n  JJ Allaire [aut] (ORCID: <https://orcid.org/0000-0003-0174-9868>),\n  Kevin Ushey [aut] (ORCID: <https://orcid.org/0000-0003-2880-7407>),\n  Qiang Kou [aut] (ORCID: <https://orcid.org/0000-0001-6786-5453>),\n  Nathan Russell [aut],\n  Iñaki Ucar [aut] (ORCID: <https://orcid.org/0000-0001-6403-5550>),\n  Doug Bates [aut] (ORCID: <https://orcid.org/0000-0001-8316-9503>),\n  John Chambers [aut]",
         "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
-        "Repository": "CRAN",
-        "Date/Publication": "2026-01-10 09:50:02 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:13:46 UTC; unix",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-16 04:31:55 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "Rcpp",
         "RemoteRef": "Rcpp",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "1.1.1"
+        "RemoteSha": "1.1.1-1"
       }
     },
     "S7": {
@@ -111,7 +109,7 @@
       "description": {
         "Package": "S7",
         "Title": "An Object Oriented System Meant to Become a Successor to S3 and\nS4",
-        "Version": "0.2.1",
+        "Version": "0.2.1-1",
         "Authors@R": "c(\n    person(\"Object-Oriented Programming Working Group\", role = \"cph\"),\n    person(\"Davis\", \"Vaughan\", role = \"aut\"),\n    person(\"Jim\", \"Hester\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-2739-7082\")),\n    person(\"Tomasz\", \"Kalinowski\", role = \"aut\"),\n    person(\"Will\", \"Landau\", role = \"aut\"),\n    person(\"Michael\", \"Lawrence\", role = \"aut\"),\n    person(\"Martin\", \"Maechler\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-8685-9910\")),\n    person(\"Luke\", \"Tierney\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0003-4757-117X\"))\n  )",
         "Description": "A new object oriented programming system designed to be a\n    successor to S3 and S4. It includes formal class, generic, and method\n    specification, and a limited form of multiple dispatch. It has been\n    designed and implemented collaboratively by the R Consortium\n    Object-Oriented Programming Working Group, which includes\n    representatives from R-Core, 'Bioconductor', 'Posit'/'tidyverse', and\n    the wider R community.",
         "License": "MIT + file LICENSE",
@@ -129,18 +127,18 @@
         "Encoding": "UTF-8",
         "RoxygenNote": "7.3.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2025-11-14 13:45:25 UTC; hadleywickham",
+        "Packaged": "2026-04-14 20:40:27 UTC; luke",
         "Author": "Object-Oriented Programming Working Group [cph],\n  Davis Vaughan [aut],\n  Jim Hester [aut] (ORCID: <https://orcid.org/0000-0002-2739-7082>),\n  Tomasz Kalinowski [aut],\n  Will Landau [aut],\n  Michael Lawrence [aut],\n  Martin Maechler [aut] (ORCID: <https://orcid.org/0000-0002-8685-9910>),\n  Luke Tierney [aut],\n  Hadley Wickham [aut, cre] (ORCID:\n    <https://orcid.org/0000-0003-4757-117X>)",
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
         "Repository": "CRAN",
         "Date/Publication": "2025-11-14 19:50:02 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:15:47 UTC; unix",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-16 04:32:30 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "S7",
         "RemoteRef": "S7",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "0.2.1"
+        "RemoteSha": "0.2.1-1"
       }
     },
     "askpass": {
@@ -1627,7 +1625,7 @@
         "Package": "openssl",
         "Type": "Package",
         "Title": "Toolkit for Encryption, Signatures and Certificates Based on\nOpenSSL",
-        "Version": "2.3.5",
+        "Version": "2.4.0",
         "Authors@R": "c(person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), email = \"jeroenooms@gmail.com\",\n    comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Oliver\", \"Keyes\", role = \"ctb\"))",
         "Description": "Bindings to OpenSSL libssl and libcrypto, plus custom SSH key parsers.\n    Supports RSA, DSA and EC curves P-256, P-384, P-521, and curve25519. Cryptographic\n    signatures can either be created and verified manually or via x509 certificates. \n    AES can be used in cbc, ctr or gcm mode for symmetric encryption; RSA for asymmetric\n    (public key) encryption or EC for Diffie Hellman. High-level envelope functions \n    combine RSA and AES for encrypting arbitrary sized data. Other utilities include key\n    generators, hash functions (md5, sha1, sha256, etc), base64 encoder, a secure random\n    number generator, and 'bignum' math methods for manually performing crypto \n    calculations on large multibyte integers.",
         "License": "MIT + file LICENSE",
@@ -1640,18 +1638,18 @@
         "RoxygenNote": "7.3.2",
         "Encoding": "UTF-8",
         "NeedsCompilation": "yes",
-        "Packaged": "2026-02-26 12:59:14 UTC; jeroen",
+        "Packaged": "2026-04-14 21:27:09 UTC; jeroen",
         "Author": "Jeroen Ooms [aut, cre] (ORCID: <https://orcid.org/0000-0002-4035-0289>),\n  Oliver Keyes [ctb]",
         "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
         "Repository": "CRAN",
-        "Date/Publication": "2026-02-26 13:50:09 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:25:10 UTC; unix",
+        "Date/Publication": "2026-04-15 06:30:02 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-16 04:32:19 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "openssl",
         "RemoteRef": "openssl",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "2.3.5"
+        "RemoteSha": "2.4.0"
       }
     },
     "otel": {
@@ -2859,40 +2857,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "edec232d2f717189c8f32120a3033e11"
+      "checksum": "d3dcf06af56bd012a7fc92323443ea0e"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "00e4d5bec63d73f38d19d5e4d924cf14"
+      "checksum": "dac7925763b21be8d7cc3b99edacd618"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "67db62f8ca344a1c4a26f71296cb7663"
+      "checksum": "bf9c74f4d9da02a07445b38c9758c0a9"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "9083a0bed5fd638005f6b33ff11312a1"
+      "checksum": "04f2adf551d92240802cba17226392f7"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "b9cc0c323b2d665e5c9b5cf1f3ce583d"
+      "checksum": "542e40f88accdc613303b5ac92cafd65"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "4c451a31309582424f18550d80277759"
+      "checksum": "f35d572278dc18ee7233bf1644f83318"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "019a0281681d31e2438f4f84f5122cac"
+      "checksum": "ad2a9031e9361208a8d9b09bd928088f"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "c9d1f688a4278615f672f5d05b4ab04c"
+      "checksum": "c7ed970cc9c9b72349c95d00f7934cbb"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "69b5adffcafcfee87f6189d6da168e25"
+      "checksum": "e0c452110a6bad50f4a3982683282927"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "631c57c1acbbee834ee4417c4f7b131b"
+      "checksum": "1dd101be30c3d55fbcb584907798153e"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "1b541a4690d34168433cfa3a61e6f22c"
+      "checksum": "32e8c586e5fa695be9119977dcee0f3d"
     }
   },
   "users": null
