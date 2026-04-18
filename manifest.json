@@ -94,7 +94,7 @@
         "Packaged": "2026-04-02 12:55:00 UTC; edd",
         "Author": "Dirk Eddelbuettel [aut, cre] (ORCID: <https://orcid.org/0000-0001-6419-907X>),\n  Romain Francois [aut] (ORCID: <https://orcid.org/0000-0002-2444-4226>),\n  JJ Allaire [aut] (ORCID: <https://orcid.org/0000-0003-0174-9868>),\n  Kevin Ushey [aut] (ORCID: <https://orcid.org/0000-0003-2880-7407>),\n  Qiang Kou [aut] (ORCID: <https://orcid.org/0000-0001-6786-5453>),\n  Nathan Russell [aut],\n  Iñaki Ucar [aut] (ORCID: <https://orcid.org/0000-0001-6403-5550>),\n  Doug Bates [aut] (ORCID: <https://orcid.org/0000-0001-8316-9503>),\n  John Chambers [aut]",
         "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-17 04:29:11 UTC; unix",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-18 04:10:52 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "Rcpp",
         "RemoteRef": "Rcpp",
@@ -935,34 +935,35 @@
       "description": {
         "Package": "glue",
         "Title": "Interpreted String Literals",
-        "Version": "1.8.0",
-        "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-2739-7082\")),\n    person(\"Jennifer\", \"Bryan\", , \"jenny@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-6983-2759\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Version": "1.8.1",
+        "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-2739-7082\")),\n    person(\"Jennifer\", \"Bryan\", , \"jenny@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-6983-2759\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n           comment = c(ROR = \"03wc8by49\"))\n  )",
         "Description": "An implementation of interpreted string literals, inspired by\n    Python's Literal String Interpolation\n    <https://www.python.org/dev/peps/pep-0498/> and Docstrings\n    <https://www.python.org/dev/peps/pep-0257/> and Julia's Triple-Quoted\n    String Literals\n    <https://docs.julialang.org/en/v1.3/manual/strings/#Triple-Quoted-String-Literals-1>.",
         "License": "MIT + file LICENSE",
         "URL": "https://glue.tidyverse.org/, https://github.com/tidyverse/glue",
         "BugReports": "https://github.com/tidyverse/glue/issues",
-        "Depends": "R (>= 3.6)",
+        "Depends": "R (>= 4.1)",
         "Imports": "methods",
-        "Suggests": "crayon, DBI (>= 1.2.0), dplyr, knitr, magrittr, rlang,\nrmarkdown, RSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0),\nwaldo (>= 0.5.3), withr",
+        "Suggests": "crayon, DBI (>= 1.2.0), dplyr, knitr, rlang, rmarkdown,\nRSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0), waldo (>=\n0.5.3), withr",
         "VignetteBuilder": "knitr",
         "ByteCompile": "true",
         "Config/Needs/website": "bench, forcats, ggbeeswarm, ggplot2, R.utils,\nrprintf, tidyr, tidyverse/tidytemplate",
         "Config/testthat/edition": "3",
+        "Config/usethis/last-upkeep": "2026-04-16",
         "Encoding": "UTF-8",
-        "RoxygenNote": "7.3.2",
+        "RoxygenNote": "7.3.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2024-09-27 16:00:45 UTC; jenny",
-        "Author": "Jim Hester [aut] (<https://orcid.org/0000-0002-2739-7082>),\n  Jennifer Bryan [aut, cre] (<https://orcid.org/0000-0002-6983-2759>),\n  Posit Software, PBC [cph, fnd]",
+        "Packaged": "2026-04-16 22:53:02 UTC; jenny",
+        "Author": "Jim Hester [aut] (ORCID: <https://orcid.org/0000-0002-2739-7082>),\n  Jennifer Bryan [aut, cre] (ORCID:\n    <https://orcid.org/0000-0002-6983-2759>),\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Jennifer Bryan <jenny@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2024-09-30 22:30:01 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:11:54 UTC; unix",
+        "Date/Publication": "2026-04-17 05:11:01 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-18 04:10:50 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "glue",
         "RemoteRef": "glue",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "1.8.0"
+        "RemoteSha": "1.8.1"
       }
     },
     "gtable": {
@@ -2857,40 +2858,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "838e6c97097de4ef04a21f54761cd509"
+      "checksum": "a860ec71003024dede8e3165a52ad24b"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "23fd1e0689d3b4cc3c90c382a6fc3936"
+      "checksum": "5f27894bafaa91b953155c874d0a11b3"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "ad39766cd3c9b8dc3d73525d9fb9a7ef"
+      "checksum": "079f493a485a93fd83105a06f9a35cac"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "3e428b872b49b917532afc1eaf11a0c7"
+      "checksum": "48eed1bd6fcf630dc664ec31c6f59622"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "cef55936808d387a956390d83476ed3a"
+      "checksum": "b610d2c498ef1fc2cf3d11cc39fde38a"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "7478d5f0ba920779229efdadf1ce3163"
+      "checksum": "b6114a593d670eaa6f02fcc7a48eb9a3"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "bded257850262e97f839ed7e95d2202c"
+      "checksum": "645e37c94bea490b6c60d300f00c0233"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "17f5a2c61035836b9b2f9d8857bafaff"
+      "checksum": "8e36c204c6d9baea4d05df853b20fd1c"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "16f3725ad6c60a751d6900a44a6c0365"
+      "checksum": "6658c19e86d27fc9f26d30fc8b33dee1"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "9547c204b229657e1640779156b426b4"
+      "checksum": "9839ea10a4e65655a2830f00807faaf2"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "41c3766df882a87ea5c6457d3cab05a3"
+      "checksum": "b2fdd5753f84cc6671e31dc4d63ec7db"
     }
   },
   "users": null
