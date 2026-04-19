@@ -94,7 +94,7 @@
         "Packaged": "2026-04-02 12:55:00 UTC; edd",
         "Author": "Dirk Eddelbuettel [aut, cre] (ORCID: <https://orcid.org/0000-0001-6419-907X>),\n  Romain Francois [aut] (ORCID: <https://orcid.org/0000-0002-2444-4226>),\n  JJ Allaire [aut] (ORCID: <https://orcid.org/0000-0003-0174-9868>),\n  Kevin Ushey [aut] (ORCID: <https://orcid.org/0000-0003-2880-7407>),\n  Qiang Kou [aut] (ORCID: <https://orcid.org/0000-0001-6786-5453>),\n  Nathan Russell [aut],\n  Iñaki Ucar [aut] (ORCID: <https://orcid.org/0000-0001-6403-5550>),\n  Doug Bates [aut] (ORCID: <https://orcid.org/0000-0001-8316-9503>),\n  John Chambers [aut]",
         "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-18 04:10:52 UTC; unix",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-19 04:31:55 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "Rcpp",
         "RemoteRef": "Rcpp",
@@ -823,7 +823,7 @@
       "description": {
         "Package": "fs",
         "Title": "Cross-Platform File System Operations Based on 'libuv'",
-        "Version": "2.0.1",
+        "Version": "2.1.0",
         "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Gábor\", \"Csárdi\", role = \"aut\"),\n    person(\"Jeroen\", \"Ooms\", , \"jeroenooms@gmail.com\", role = \"cre\"),\n    person(\"libuv project contributors\", role = \"cph\",\n           comment = \"libuv library\"),\n    person(\"Joyent, Inc. and other Node contributors\", role = \"cph\",\n           comment = \"libuv library\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n           comment = c(ROR = \"03wc8by49\"))\n  )",
         "Description": "A cross-platform interface to file system operations, built\n    on top of the 'libuv' C library.",
         "License": "MIT + file LICENSE",
@@ -842,18 +842,18 @@
         "Language": "en-US",
         "RoxygenNote": "7.3.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2026-03-23 14:30:54 UTC; jeroen",
+        "Packaged": "2026-04-18 13:56:26 UTC; jeroen",
         "Author": "Jim Hester [aut],\n  Hadley Wickham [aut],\n  Gábor Csárdi [aut],\n  Jeroen Ooms [cre],\n  libuv project contributors [cph] (libuv library),\n  Joyent, Inc. and other Node contributors [cph] (libuv library),\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
         "Repository": "CRAN",
-        "Date/Publication": "2026-03-24 05:20:18 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:14:33 UTC; unix",
+        "Date/Publication": "2026-04-18 15:10:02 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-19 04:32:16 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "fs",
         "RemoteRef": "fs",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "2.0.1"
+        "RemoteSha": "2.1.0"
       }
     },
     "generics": {
@@ -2858,40 +2858,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "a860ec71003024dede8e3165a52ad24b"
+      "checksum": "3f93b99066354cad52086878441b19d9"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "5f27894bafaa91b953155c874d0a11b3"
+      "checksum": "6fd8f76cbc5b183790600f219180c2c0"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "079f493a485a93fd83105a06f9a35cac"
+      "checksum": "a440628f97146d301ae8938e2ebe46dc"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "48eed1bd6fcf630dc664ec31c6f59622"
+      "checksum": "cdb1f94426353bfd3c1b404ca4fbf85f"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "b610d2c498ef1fc2cf3d11cc39fde38a"
+      "checksum": "27f5d5f2f21ba783539784d9a30116a9"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "b6114a593d670eaa6f02fcc7a48eb9a3"
+      "checksum": "01a5eaea309ef743d7dc3eed0de33445"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "645e37c94bea490b6c60d300f00c0233"
+      "checksum": "da10b10a7200cf53690dc97553d31ad2"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "8e36c204c6d9baea4d05df853b20fd1c"
+      "checksum": "9010d74bcd6ad51472e0347afc440096"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "6658c19e86d27fc9f26d30fc8b33dee1"
+      "checksum": "8d8cfd0591892f37861b8dd345cb9eab"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "9839ea10a4e65655a2830f00807faaf2"
+      "checksum": "724db4873572e7d9923fbf048464fd51"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "b2fdd5753f84cc6671e31dc4d63ec7db"
+      "checksum": "754a0c1f990a555079b870e33ed11652"
     }
   },
   "users": null
