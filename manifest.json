@@ -94,7 +94,7 @@
         "Packaged": "2026-04-02 12:55:00 UTC; edd",
         "Author": "Dirk Eddelbuettel [aut, cre] (ORCID: <https://orcid.org/0000-0001-6419-907X>),\n  Romain Francois [aut] (ORCID: <https://orcid.org/0000-0002-2444-4226>),\n  JJ Allaire [aut] (ORCID: <https://orcid.org/0000-0003-0174-9868>),\n  Kevin Ushey [aut] (ORCID: <https://orcid.org/0000-0003-2880-7407>),\n  Qiang Kou [aut] (ORCID: <https://orcid.org/0000-0001-6786-5453>),\n  Nathan Russell [aut],\n  Iñaki Ucar [aut] (ORCID: <https://orcid.org/0000-0001-6403-5550>),\n  Doug Bates [aut] (ORCID: <https://orcid.org/0000-0001-8316-9503>),\n  John Chambers [aut]",
         "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-19 04:31:55 UTC; unix",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-21 04:31:49 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "Rcpp",
         "RemoteRef": "Rcpp",
@@ -2858,40 +2858,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "3f93b99066354cad52086878441b19d9"
+      "checksum": "55168efaf2e74d2294ecf8cf7b5d7ff2"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "6fd8f76cbc5b183790600f219180c2c0"
+      "checksum": "f2e84ebe80feafd46ac1bf07e2ca577c"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "a440628f97146d301ae8938e2ebe46dc"
+      "checksum": "b085388921d3b7def1d08b0448dc0051"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "cdb1f94426353bfd3c1b404ca4fbf85f"
+      "checksum": "95b8db4267075d9a4bcc0cfb5be27615"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "27f5d5f2f21ba783539784d9a30116a9"
+      "checksum": "f70e3c9bd1a070f2cbd15c6b497c3a4e"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "01a5eaea309ef743d7dc3eed0de33445"
+      "checksum": "786e6f5d0fd25b225f46dddc9bbca57c"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "da10b10a7200cf53690dc97553d31ad2"
+      "checksum": "825cc0ef8ebe7bdea301e7fdf444fb75"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "9010d74bcd6ad51472e0347afc440096"
+      "checksum": "de07920ccb451d835441116ef466364d"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "8d8cfd0591892f37861b8dd345cb9eab"
+      "checksum": "af4e4b70dd6c1a9a78b3899bd9180c38"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "724db4873572e7d9923fbf048464fd51"
+      "checksum": "d65b84675737ad4ce4a0014f6ea3eb95"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "754a0c1f990a555079b870e33ed11652"
+      "checksum": "a934fccca53b80c643703e8f11334692"
     }
   },
   "users": null
