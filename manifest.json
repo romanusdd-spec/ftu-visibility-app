@@ -94,7 +94,7 @@
         "Packaged": "2026-04-02 12:55:00 UTC; edd",
         "Author": "Dirk Eddelbuettel [aut, cre] (ORCID: <https://orcid.org/0000-0001-6419-907X>),\n  Romain Francois [aut] (ORCID: <https://orcid.org/0000-0002-2444-4226>),\n  JJ Allaire [aut] (ORCID: <https://orcid.org/0000-0003-0174-9868>),\n  Kevin Ushey [aut] (ORCID: <https://orcid.org/0000-0003-2880-7407>),\n  Qiang Kou [aut] (ORCID: <https://orcid.org/0000-0001-6786-5453>),\n  Nathan Russell [aut],\n  Iñaki Ucar [aut] (ORCID: <https://orcid.org/0000-0001-6403-5550>),\n  Doug Bates [aut] (ORCID: <https://orcid.org/0000-0001-8316-9503>),\n  John Chambers [aut]",
         "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-21 04:31:49 UTC; unix",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-22 04:27:11 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "Rcpp",
         "RemoteRef": "Rcpp",
@@ -243,33 +243,34 @@
       "description": {
         "Package": "bit64",
         "Title": "A S3 Class for Vectors of 64bit Integers",
-        "Version": "4.6.0-1",
-        "Authors@R": "c(\n    person(\"Michael\", \"Chirico\", email = \"michaelchirico4@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Jens\", \"Oehlschlägel\", role = \"aut\"),\n    person(\"Leonardo\", \"Silvestri\", role = \"ctb\"),\n    person(\"Ofek\", \"Shilon\", role = \"ctb\")\n  )",
-        "Depends": "R (>= 3.4.0), bit (>= 4.0.0)",
+        "Version": "4.8.0",
+        "Authors@R": "c(\n    person(\"Michael\", \"Chirico\", email=\"michaelchirico4@gmail.com\", role=c(\"aut\", \"cre\")),\n    person(\"Jens\", \"Oehlschlägel\", role=\"aut\"),\n    person(\"Leonardo\", \"Silvestri\", role=\"ctb\"),\n    person(\"Ofek\", \"Shilon\", role=\"ctb\"),\n    person(\"Christian\", \"Ullerich\", role=\"ctb\")\n  )",
+        "Depends": "R (>= 3.5.0)",
         "Description": "\n  Package 'bit64' provides serializable S3 atomic 64bit (signed) integers.\n  These are useful for handling database keys and exact counting in +-2^63.\n  WARNING: do not use them as replacement for 32bit integers, integer64 are not\n  supported for subscripting by R-core and they have different semantics when\n  combined with double, e.g. integer64 + double => integer64.\n  Class integer64 can be used in vectors, matrices, arrays and data.frames.\n  Methods are available for coercion from and to logicals, integers, doubles,\n  characters and factors as well as many elementwise and summary functions.\n  Many fast algorithmic operations such as 'match' and 'order' support inter-\n  active data exploration and manipulation and optionally leverage caching.",
         "License": "GPL-2 | GPL-3",
         "LazyLoad": "yes",
         "ByteCompile": "yes",
-        "URL": "https://github.com/r-lib/bit64",
+        "URL": "https://github.com/r-lib/bit64, https://bit64.r-lib.org",
         "Encoding": "UTF-8",
-        "Imports": "graphics, methods, stats, utils",
-        "Suggests": "testthat (>= 3.0.3), withr",
+        "Imports": "bit (>= 4.0.0), graphics, methods, stats, utils",
+        "Suggests": "patrick (>= 0.3.0), testthat (>= 3.3.0), withr",
         "Config/testthat/edition": "3",
-        "Config/needs/development": "testthat",
-        "RoxygenNote": "7.3.2",
+        "Config/Needs/development": "patrick, testthat",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "RoxygenNote": "7.3.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2025-01-16 14:04:20 UTC; michael",
-        "Author": "Michael Chirico [aut, cre],\n  Jens Oehlschlägel [aut],\n  Leonardo Silvestri [ctb],\n  Ofek Shilon [ctb]",
+        "Packaged": "2026-04-20 06:52:55 UTC; michael",
+        "Author": "Michael Chirico [aut, cre],\n  Jens Oehlschlägel [aut],\n  Leonardo Silvestri [ctb],\n  Ofek Shilon [ctb],\n  Christian Ullerich [ctb]",
         "Maintainer": "Michael Chirico <michaelchirico4@gmail.com>",
         "Repository": "CRAN",
-        "Date/Publication": "2025-01-16 16:00:07 UTC",
-        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-03-26 04:18:08 UTC; unix",
+        "Date/Publication": "2026-04-21 06:10:02 UTC",
+        "Built": "R 4.5.3; x86_64-pc-linux-gnu; 2026-04-22 04:27:05 UTC; unix",
         "RemoteType": "standard",
         "RemotePkgRef": "bit64",
         "RemoteRef": "bit64",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemotePkgPlatform": "source",
-        "RemoteSha": "4.6.0-1"
+        "RemoteSha": "4.8.0"
       }
     },
     "bslib": {
@@ -2858,40 +2859,40 @@
       "checksum": "2cc96b8c9e9fa9aa2f16183d1a6e247f"
     },
     "bundle_manifest.csv": {
-      "checksum": "55168efaf2e74d2294ecf8cf7b5d7ff2"
+      "checksum": "3824ddf8250fbf745b5a0fd649301e01"
     },
     "data/commercial/fact_wo_submission_daily.csv": {
-      "checksum": "f2e84ebe80feafd46ac1bf07e2ca577c"
+      "checksum": "95b95609dae6ca5ac29c8a9e7b813298"
     },
     "data/commercial/fact_wo_submission_detail.csv": {
-      "checksum": "b085388921d3b7def1d08b0448dc0051"
+      "checksum": "a97dc90b3c4a2aa74ba5d018cb7c8b57"
     },
     "data/ops/fact_loc_compliance_detail_hist.csv": {
       "checksum": "409639af263288ecd233cbd4a6f3b51f"
     },
     "data/ops/fact_loc_compliance_detail_mtd.csv": {
-      "checksum": "95b8db4267075d9a4bcc0cfb5be27615"
+      "checksum": "fd5eabeb104913d9ea98d097716e07b0"
     },
     "data/ops/fact_loc_compliance_trend_mtd_cumulative.csv": {
-      "checksum": "f70e3c9bd1a070f2cbd15c6b497c3a4e"
+      "checksum": "e8ba099e68adcf19d8e97f3b206b5a29"
     },
     "data/ops/fact_loc_execution_detail_mtd.csv": {
-      "checksum": "786e6f5d0fd25b225f46dddc9bbca57c"
+      "checksum": "47ce6cc336a1dfe23d51297f18addaea"
     },
     "data/ops/fact_loc_revenue_mtd.csv": {
-      "checksum": "825cc0ef8ebe7bdea301e7fdf444fb75"
+      "checksum": "37482c63a79510da26ca808632d862e9"
     },
     "data/ops/fact_truck_utilization_daily.csv": {
-      "checksum": "de07920ccb451d835441116ef466364d"
+      "checksum": "5f7f4d1bef770071677b457c5f863519"
     },
     "data/ops/fact_truck_utilization_summary_daily_by_type.csv": {
-      "checksum": "af4e4b70dd6c1a9a78b3899bd9180c38"
+      "checksum": "fa50dc5e5de3fbc40c49bc311b441396"
     },
     "data/ops/fact_truck_utilization_summary_daily.csv": {
-      "checksum": "d65b84675737ad4ce4a0014f6ea3eb95"
+      "checksum": "3669dfabda352999a89fd870ce9378e4"
     },
     "data/ops/kpi_loc_compliance_mtd.csv": {
-      "checksum": "a934fccca53b80c643703e8f11334692"
+      "checksum": "b5252040f6f219754734ffc1d38df1dc"
     }
   },
   "users": null
